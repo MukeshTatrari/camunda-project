@@ -4,7 +4,7 @@
     <bpmn:startEvent id="StartEvent_1">
       <bpmn:extensionElements>
         <camunda:formData>
-          <camunda:formField id="ProductName" label="ProductName" type="string" />
+          <camunda:formField id="productName" label="productName" type="string" defaultValue="XYZ" />
         </camunda:formData>
       </bpmn:extensionElements>
       <bpmn:outgoing>Flow_0pl6tu9</bpmn:outgoing>
